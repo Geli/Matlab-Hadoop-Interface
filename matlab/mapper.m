@@ -1,3 +1,3 @@
 function [outkey,outdata]=mapper(inkey,indata)
-    outkey=inkey;
-    outdata=indata;
+    outkey={inkey};
+    outdata={indata};
